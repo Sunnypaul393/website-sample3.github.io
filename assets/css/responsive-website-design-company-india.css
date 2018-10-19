@@ -1,0 +1,41 @@
+.page-banner {
+    height: auto;
+    background: url(../images/responsive-page-bg.jpg) no-repeat;
+    background-size: cover;
+    text-align: left;
+    padding-bottom: 150px
+}
+
+.page-banner-content {
+    max-width: 450px;
+}
+
+.page-banner h1 {
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 60px;
+    color: #ffe96e;
+}
+
+.page-banner ul {
+    margin-bottom: 30px;
+}
+
+.page-banner ul li {
+    padding: 5px 10px;
+}
+
+.banner-btn {
+    background: #fff;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#wave {
+    bottom: -60px;
+    display: block;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
